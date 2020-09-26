@@ -1,0 +1,22 @@
+body {
+  font-family: "Helvetica neue";
+  font-size: 20px;
+  color: #666;
+  padding: 0 20%;
+}
+#checklist li{
+  padding: 2px;
+}
+
+li input {
+  display: none;
+}
+
+li.edit span {
+  display: none;
+}
+
+li.edit input {
+  display: initial;
+}
+
