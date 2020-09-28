@@ -20,7 +20,7 @@ function edit() {
 }
 
 function update() {
-  // console.log(this)
+  console.log(this)
   this.previousElementSibling.innerText = this.value
   this.parentNode.className = ""
 }
